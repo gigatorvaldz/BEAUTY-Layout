@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <div class="container">
+          <ul class="menu__list">
+            <li><a href="#" class="menu__link add-link">Доставка</a></li>
+            <li><a href="#" class="menu__link add-link">Оплата</a></li>
+            <li><a href="#" class="menu__link add-link">Отзывы</a></li>
+            <li><a href="#" class="menu__link add-link">Вопрос - ответ</a></li>
+            <li><a href="#" class="menu__link add-link">Контакты</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header-logo-block">
+        <div class="container header-logo-block__container">
+          <a href="#" class="header-logo-block__logo">
+            <img src="img/logo.svg" alt="логотип BEAUTY">
+            BEAUTY
+          </a>
+          <div class="header-logo-block__contacts phone-contacts">
+            <a class="phone-contacts__phone main-link" href="tel:88121234567"
+              >8 (812) 123-45-67</a
+            >
+            <a class="phone-contacts__callback" href="#">Обратный звонок</a>
+          </div>
+        </div>
+      </div>
+      <nav class="navigation-menu">
+          <ul class="navigation-menu__list adaptive-visually-hidden">
+            <li><a href="#" class="navigation-menu__link main-link">Парикмахерская</a></li>
+            <li><a href="#" class="navigation-menu__link main-link">Барбершоп</a></li>
+            <li><a href="#" class="navigation-menu__link main-link">Маникюр</a></li>
+            <li><a href="#" class="navigation-menu__link main-link">Педикюр</a></li>
+            <li><a href="#" class="navigation-menu__link main-link">Массаж</a></li>
+            <li><a href="#" class="navigation-menu__link main-link">Мебель</a></li>
+          </ul>
+          <div class="navigation-menu__container container">
+            <button class="navigation-menu__adaptive-button adaptive-button">
+              <span class="adaptive-button__arrow-left"></span>
+              <span class="adaptive-button__arrow-right"></span>
+            </button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="sale">
+        <div class="container sale__container">
+          <h1 class="sale__title"><strong>Супер кресло</strong></h1>
+          <strong class="sale__text"
+            >Текст акции всегда отражает суть, а не просто <br />
+            болтовню, поэтому внимательнее</strong
+          >
+          <a class="button-link sale__button" href="#">Подробнее</a>
+        </div>
+      </section>
+      <section class="special-offers">
+        <div class="container special-offers__container">
+          <h2 class="special-offers__title">Специальные предложения</h2>
+          <ul class="special-offers__product-list product-list">
+            <li class="product-list__product product">
+              <article class="product__item">
+                <img
+                  class="product__image"
+                  src="img/product.png"
+                  alt="Изображение гидравлического кресла «Норм»"
+                />
+                <h3 class="product__title">
+                  Парикмахерское кресло «Норм» гидравлическое
+                </h3>
+                <span class="product__price">9 900 ₽</span>
+                <a class="product__buy-button" href="#">Купить</a>
+              </article>
+            </li>
+            <li class="product-list__product product">
+              <article class="product__item">
+                <img
+                  class="product__image"
+                  src="img/product.png"
+                  alt="Изображение гидравлического кресла «Норм»"
+                />
+                <h3 class="product__title">
+                  Парикмахерское кресло «Норм» гидравлическое
+                </h3>
+                <span class="product__price">9 900 ₽</span>
+                <a class="product__buy-button" href="#">Купить</a>
+              </article>
+            </li>
+            <li class="product-list__product product">
+              <article class="product__item">
+                <img
+                  class="product__image"
+                  src="img/product.png"
+                  alt="Изображение гидравлического кресла «Норм»"
+                />
+                <h3 class="product__title">
+                  Парикмахерское кресло «Норм» гидравлическое
+                </h3>
+                <span class="product__price">9 900 ₽</span>
+                <a class="product__buy-button" href="#">Купить</a>
+              </article>
+            </li>
+            <li class="product-list__product product">
+              <article class="product__item">
+                <img
+                  class="product__image"
+                  src="img/product.png"
+                  alt="Изображение гидравлического кресла «Норм»"
+                />
+                <h3 class="product__title">
+                  Парикмахерское кресло «Норм» гидравлическое
+                </h3>
+                <span class="product__price">9 900 ₽</span>
+                <a class="product__buy-button" href="#">Купить</a>
+              </article>
+            </li>
+          </ul>
+          <ul class="special-offers__offer-list offer-list">
+            <li class="offer-list__offer offer">
+              <article class="offer__item">
+                <h2 class="offer__title">Получайте бонусы и подарки</h2>
+                <strong class="offer__description"
+                  >Каждый месяц разыгрываем 10 000 рублей для наших
+                  клиентов</strong
+                >
+                <label for="email-input" class="visually-hidden"></label>
+                <input
+                  class="offer__email-input email-input"
+                  type="email"
+                  placeholder="Введите e-mail"
+                  id="email-input"
+                  name="myGeeks"
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"
+                />
+              </article>
+              <div class="offer__icon-container">
+                <img src="img/offer-1.png" alt="Изображение конверта" />
+              </div>
+            </li>
+            <li class="offer-list__offer offer">
+              <article class="offer__item">
+                <h2 class="offer__title">Заходите к нам</h2>
+                <strong class="offer__description"
+                  >Более 300 магазинов по всей России</strong
+                >
+                <a class="offer__button button-link" href="#"
+                  >Карта магазинов</a
+                >
+              </article>
+              <div class="offer__icon-container">
+                <img src="img/offer-2.svg" alt="Изображение грузовика" />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="main-footer container">
+        <nav class="main-footer__social social">
+          <ul class="social__list">
+            <li><a href="#" class="social__list-link social-1"></a></li>
+            <li><a href="#" class="social__list-link social-2"></a></li>
+            <li><a href="#" class="social__list-link social-3"></a></li>
+            <li><a href="#" class="social__list-link social-4"></a></li>
+          </ul>
+        </nav>
+        <address class="main-footer__adress">
+          198555, Невский пр. 140, офис 140
+        </address>
+        <div class="main-footer__contacts phone-contacts">
+          <a class="phone-contacts__phone main-link" href="tel:88121234567"
+            >8 (812) 123-45-67</a
+          >
+          <a class="phone-contacts__callback" href="#">Обратный звонок</a>
+        </div>
+      </div>
+      <div class="bottom-footer">
+        <div class="bottom-footer__container container">
+          <a href="#" class="bottom-footer__link add-link"
+            >Лучший магазин (с) 2019 Все права защищены. Интернет-магазин
+            оборудования для салонов красоты</a
+          >
+          <a href="#" class="bottom-footer__link add-link"
+            >Политика конфиденциальности</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="JS/index.js"></script>
+  </body>
+</html>
