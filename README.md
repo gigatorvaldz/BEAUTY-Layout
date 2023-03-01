@@ -1,5 +1,5 @@
-# BEAUTY-Layout
----
+# BEAUTY-Layout #
+
 Доступно демо по [ссылке](https://gigatorvaldz.github.io/BEAUTY-Layout/ "тык")
 ---
 Демо создано при помощи GitHub Pages
